@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" id="to-top">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Restaurant Food">
+  <meta name="keywords" content="Restaurant Apps, Lestoran, Restaurant">
+  <meta name="author" content="Khoirul Husen">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Color theme for Address Bar Browser mobile -->
+  <meta name="theme-color" content="#DB0000"/>
+
+  <link rel="icon" href="./favicon.png">
+  <!-- Optimasi icon for iOS -->
+  <link rel="apple-touch-icon" href="/icons/icon-192x192.png">
+  <link rel="manifest" href="./app.webmanifest">
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous"> 
+  <title>WhOo Resto</title>
+</head>
+<body>
+  <!-- Skip to Content -->
+  <a href="#main-content" class="skip-link">Skip to Content ?</a>
+
+  <header>
+    <!-- App Bar -->
+    <div class="app-bar">
+      <div class="menu-toggle">
+        <a href="#" class="nav-toggle" id="hamburgerButton" aria-label="navigation" role="menu"><i class="fa fa-bars" aria-hidden="true"></i></a>
+      </div>
+      <div class="app-bar-brand">
+        <div class="container">
+          <h1 class="brand"><a href="#/home">WhOo Resto</a></h1>
+        </div>
+      </div>
+      <nav id="navigationDrawer" class="app-nav">
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="#/home">Home</a></li>
+          <li class="nav-item"><a href="#/favorite">Favorite</a></li>
+          <li class="nav-item"><a href="https://www.linkedin.com/in/hoirulhusen08/" target="_blank">About</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Hero Image -->
+    <div class="jumbotron">
+      <div class="hero-text">
+        <h1>Welcome to WhOo Restaurant</h1>
+        <p>Here you can find something that will fill you up. and doesn't drain your pocket.</p>
+        <a href="#" class="btn-discount" aria-label="button-discount">Get Your Discount</a>
+        <!-- This image none in Mobile version -->
+        <picture>
+          <source media="(max-width: 600px)" srcset="">
+          <img src="./images/heros/leaf.png" class="leaf" alt="">
+        </picture>
+      </div>
+    </div>
+  </header>
+
+  <!-- Content -->
+  <main id="main-content" tabindex="0">
+    <div class="container-fluid">
+      <div id="mainContent">
+        <!-- Contents here -->
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="info-footer" role="info-footer" tabindex="0">
+      <p>Copyright &copy; 2022 - All Rights Reserved | Hunger Apps by Khoirul Husen.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
